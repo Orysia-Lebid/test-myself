@@ -1,4 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 h1 {
     font-size: 24px;
     color: blueviolet;
+}
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #999;
 }
